@@ -1,7 +1,6 @@
 package com.example.shop.entity;
 
 import com.example.shop.constant.ItemSellStatus;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
@@ -37,6 +36,4 @@ public class Item extends BaseEntity{
     @Enumerated(EnumType.STRING)
     private ItemSellStatus itemSellStatus;
 
-    private LocalDateTime regTime;
-    private LocalDateTime updateTime;
 }

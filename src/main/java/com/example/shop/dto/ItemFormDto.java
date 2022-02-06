@@ -11,7 +11,6 @@ import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.example.shop.entity.QMember.member;
 
 @Getter
 @Setter
@@ -29,9 +28,10 @@ public class ItemFormDto {
 
     @NotNull(message = "재고는 필수 입력 값입니다.")
     private Integer stockNumber;
+
     private ItemSellStatus itemSellStatus;
     private List<ItemImgDto> itemImgDtoList = new ArrayList<>();
-    private List<Long> itemIngIds = new ArrayList<>();
+    private List<Long> itemImgIds = new ArrayList<>();
 
     private static ModelMapper modelMapper = new ModelMapper();
 

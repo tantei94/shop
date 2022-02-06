@@ -12,7 +12,7 @@ public class ItemImgDto implements Serializable {
     private final String imgName;
     private final String oriImgName;
     private final String imgUrl;
-    private final String repimgYn;
+    private final String repImgYn;
 
     private static ModelMapper modelMapper = new ModelMapper();
 

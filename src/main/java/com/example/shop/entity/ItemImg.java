@@ -20,7 +20,7 @@ public class ItemImg {
 
     private String imgUrl;
 
-    private String repimgYn;
+    private String repImgYn;
 
 
     @ManyToOne(fetch = FetchType.LAZY)
